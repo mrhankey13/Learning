@@ -1,0 +1,10 @@
+<?php error_reporting(-1);
+
+echo '<select>';
+
+for ($i = 1900; $i<=2019; $i++){
+echo "<option>$i</option>";
+}
+
+echo '</select>';
+?>
